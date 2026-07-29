@@ -19,7 +19,7 @@ on:
 
 jobs:
   release:
-    uses: kubiix/factorio-devops/.github/workflows/release-factorio-mod.yml@v1
+    uses: kubiix/factorio-devops/.github/workflows/release-factorio-mod.yml@main
     with:
       version: ${{ inputs.version }}
       release_mode: ${{ inputs.release_mode }}

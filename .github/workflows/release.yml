@@ -17,6 +17,9 @@ on:
           - Commits and Release
           - Full
 
+permissions:
+  contents: write
+
 jobs:
   release:
     uses: kubiix/factorio-devops/.github/workflows/release-factorio-mod.yml@main

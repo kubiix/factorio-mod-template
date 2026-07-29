@@ -11,6 +11,10 @@ on:
         description: Factorio title in info.json
         required: true
         type: string
+      initial_version:
+        description: Optional initial numeric version; defaults to 0.1.0 when empty
+        required: false
+        type: string
       category:
         description: Mod Portal category
         required: true
@@ -43,6 +47,7 @@ jobs:
     with:
       internal_name: ${{ inputs.internal_name }}
       mod_title: ${{ inputs.mod_title }}
+      initial_version: ${{ inputs.initial_version }}
       category: ${{ inputs.category }}
       tags: ${{ inputs.tags }}
       description: ${{ inputs.description }}

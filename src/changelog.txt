@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.x
+Version: 0.1.0
 Date: TBD
   Changes:
     - Add the first unpublished change here.

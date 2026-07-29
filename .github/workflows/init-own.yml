@@ -48,3 +48,5 @@ jobs:
       description: ${{ inputs.description }}
       faq: ${{ inputs.faq }}
       summary: ${{ inputs.summary }}
+    secrets:
+      gpg_private_key: ${{ secrets.FACTORIO_DEVOPS_GPG_PRIVATE_KEY }}
